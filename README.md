@@ -24,6 +24,8 @@ Visualizes current and forecasted data while Azure Monitor sends alerts based on
 ### 1. Initial setup
 * Create a Storage account and make sure its a StorageV2 account and that Hierarchical namespace is enabled.   
 ![storage_account](./images/storage_account.png)
+* Assign *Storage Blob Data Reader* role to yourself
+![storage_account_role](./images/storage_account_role.png)
 * Create a Databricks Workspace in Azure and import each notebook.   
 * Insert variables in ***mount.py*** to mount your container. Run it.
 ### 2. Building pipeline
