@@ -25,10 +25,10 @@ Visualizes current and forecasted data while Azure Monitor sends alerts based on
 * Create a Storage account and make sure its a StorageV2 account and that Hierarchical namespace is enabled.   
 ![storage_account](./images/storage_account.png)
 * Create a Databricks Workspace in Azure and import each notebook.   
-* Insert variables in ***mount*** to mount your container. Run it.
+* Insert variables in ***mount.py*** to mount your container. Run it.
 ### 2. Building pipeline
-* Run ***Bulk  Electricity Prices*** and ***Bulk WeatherData*** first to fetch historical data. When they're done run ***Bulk Gold*** to clean and aggregate said data.
-* Run ***Predictive Model***. Tweak configuration and features if neccesary.
+* Run ***Bulk Electricity Prices.py*** and ***Bulk WeatherData.py*** first to fetch historical data. When they're done run ***Bulk Gold.py*** to clean and aggregate said data.
+* Run ***Predictive Model.py***. Tweak configuration and features if neccesary.
 * Create a workflow where daily data is being fetched.
 ![databricks_workflow](./images/databricks_workflow.png)
 ### 3. Visualize data
