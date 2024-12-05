@@ -1,5 +1,5 @@
 # ETL Project: Electricity Prices
-Are you annoyed that those pesky electricity providers squeezing your wallet dry? Did you know that you can predict electricity prices? Do you want to spend less money on electricity and more on blackjack and hookers? You're in luck, this witchcraft of a project will give you the insight you need to undertsand when it's time to game or mine crypto, and when it's time to go outside and touch some grass.
+Are you annoyed that those pesky electricity providers squeezing your wallet dry? Did you know that you can predict electricity prices? Do you want to spend less money on electricity and more on blackjack and hookers? You're in luck, this project will give you the insight you need to undertsand when it's time to game or mine crypto, and when it's time to go outside and touch some grass.
 
 ## Introduction
 This project aims to build a data pipeline using **Databricks** to analyze electricity prices in relation to external factors like weather conditions.  
@@ -29,7 +29,7 @@ Visualizes current and forecasted data while Azure Monitor sends alerts based on
 * Create a Databricks Workspace in Azure and import each notebook.   
 * Insert variables in ***mount.py*** to mount your container. Run it.
 ### 2. Building pipeline
-* Run ***Bulk Electricity Prices.py*** and ***Bulk WeatherData.py*** first to fetch historical data. When they're done run ***Bulk Gold.py*** to clean and aggregate said data.
+* Run ***Bulk Electricity Prices.py*** and ***Bulk Weather Data.py*** first to fetch historical data. When they're done run ***Bulk Gold.py*** to clean and aggregate said data.
 * Run ***Predictive Model.py***. Tweak configuration and features if neccesary.
 * Create a workflow where daily data is being fetched.
 ![databricks_workflow](./images/databricks_workflow.png)
